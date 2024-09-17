@@ -1,10 +1,10 @@
-Below is the GitHub documentation for the provided Python script, formatted in Markdown. This document includes an overview, installation requirements, usage instructions, functions descriptions, and a sample output section.
+This document includes an overview, installation requirements, usage instructions, functions descriptions, and a sample output section.
 
-#Audio Transcription Tool
+# Audio Transcription Tool
 
 This Python script provides a utility for transcribing long audio files into text. It uses the speech_recognition and pydub libraries to process audio files, split them based on silence, and convert the audio chunks to text using Google’s speech recognition API.
 
-##Features
+## Features
 Audio Splitting: Splits large audio files into manageable chunks based on silence.
 Speech Recognition: Transcribes audio to text using Google’s speech recognition service.
 Resumable Processing: Keeps track of processed chunks to allow resumption of transcription.
